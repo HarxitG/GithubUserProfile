@@ -31,7 +31,53 @@ A sleek, responsive web app built with **React**, **Vite**, **TypeScript**, **Ta
 ```bash
 git clone https://github.com/YOUR_USERNAME/github-analyzer.git
 cd github-analyzer
+```
 
-2. Install dependencies
+### 2. Install dependencies
+
+```bash
 npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+🌍 Deploying to Vercel (Recommended)
+Push your code to GitHub
+
+Go to https://vercel.com
+
+Import your repo
+
+Use default settings for a Vite + React app
+
+Click Deploy
+
+OR Deploy to Netlify
+Push your code to GitHub
+
+Go to https://netlify.com
+
+Select "Import project from GitHub"
+
+Set build command to: npm run build
+
+Set publish directory to: dist
+
+Click Deploy Site
+
+## 📂 Build for Production
+
+```bash
+npm run build
+```
+
+```bash
+npm run preview
+```
+
+
 
